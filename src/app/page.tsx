@@ -61,10 +61,11 @@ export default function LandingPage() {
 
   <div id="features" data-section="features">
       <FeatureCardTwelve
-      animationType="depth-3d"
+      animationType="scale-rotate"
       textboxLayout="split"
       useInvertedBackground={false}
       title="خدماتنا المتميزة"
+      description="نقدم مجموعة متكاملة من خدمات طب الأسنان المتطورة لضمان حصولك على ابتسامة مشرقة وصحية."
       features={[
         { id: "1", label: "زراعة", title: "زراعة الأسنان", items: ["حلول دائمة", "جودة عالية"] },
         { id: "2", label: "تجميل", title: "تبييض الأسنان", items: ["نتائج فورية", "آمنة تماماً"] },
@@ -83,13 +84,16 @@ export default function LandingPage() {
         { id: "3", value: "100%", description: "رضا المرضى" },
       ]}
       metricsAnimation="slide-up"
+      useInvertedBackground={false}
     />
   </div>
 
   <div id="team" data-section="team">
       <TeamCardTen
       title="فريقنا الطبي"
+      tag="الخبراء"
       memberVariant="card"
+      useInvertedBackground={false}
       members={[
         { id: "1", name: "د. علي حسين", imageSrc: "http://img.b2bpic.net/free-photo/close-up-boy-dentist_23-2149206291.jpg" },
         { id: "2", name: "د. منى محمود", imageSrc: "http://img.b2bpic.net/free-photo/nurse-dentist-showing-green-screen-display-stomatology-senior-doctor-while-examining-tooth-pain-man-patient-sittinh-dental-chair_482257-4900.jpg" },
@@ -102,6 +106,8 @@ export default function LandingPage() {
       <TestimonialCardTwo
       animationType="depth-3d"
       title="آراء مرضانا"
+      description="ماذا يقول مرضانا عن تجربتهم معنا"
+      useInvertedBackground={false}
       testimonials={[
         { id: "1", name: "أحمد", role: "مريض", testimonial: "تجربة رائعة." },
         { id: "2", name: "سارة", role: "مريضة", testimonial: "خدمة احترافية." },
@@ -113,6 +119,8 @@ export default function LandingPage() {
   <div id="faq" data-section="faq">
       <FaqSplitMedia
       title="أسئلة شائعة"
+      description="كل ما تود معرفته عن خدماتنا"
+      useInvertedBackground={false}
       faqs={[
         { id: "1", title: "كم تستغرق عملية التبييض؟", content: "تستغرق ساعة." },
         { id: "2", title: "هل التعقيم مضمون؟", content: "نعم، نلتزم بالمعايير." },
@@ -127,8 +135,9 @@ export default function LandingPage() {
       tag="تواصل معنا"
       title="جاهز لابتسامة جديدة؟"
       description="احجز موعدك اليوم."
-      buttons={[{ text: "احجز الآن" }]}
+      buttons={[{ text: "احجز الآن", href: "#contact" }]}
       background={{ variant: "glowing-orb" }}
+      useInvertedBackground={false}
     />
   </div>
 
