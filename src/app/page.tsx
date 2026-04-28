@@ -69,7 +69,7 @@ export default function LandingPage() {
           handle: "@ahmed",
           testimonial: "تجربة رائعة، طاقم طبي محترف جداً.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/dental-doctor-standing-clinic_1303-26408.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dental-doctor-standing-clinic_1303-26408.jpg?_wi=1",
           imageAlt: "professional dentist clinic background",
         },
         {
@@ -77,7 +77,7 @@ export default function LandingPage() {
           handle: "@sarah",
           testimonial: "خدمة ممتازة وعيادة نظيفة جداً.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/attractive-brunette-female-dentist-chair-stomatology-room_613910-11484.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/attractive-brunette-female-dentist-chair-stomatology-room_613910-11484.jpg?_wi=1",
           imageAlt: "professional dentist clinic background",
         },
         {
@@ -85,7 +85,7 @@ export default function LandingPage() {
           handle: "@omar",
           testimonial: "أفضل عيادة أسنان في بغداد.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/old-man-sitting-dentist-s-office_1157-19444.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/old-man-sitting-dentist-s-office_1157-19444.jpg?_wi=1",
           imageAlt: "professional dentist clinic background",
         },
         {
@@ -93,7 +93,7 @@ export default function LandingPage() {
           handle: "@layla",
           testimonial: "اهتمام بالتفاصيل ونتائج مذهلة.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67240.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67240.jpg?_wi=1",
           imageAlt: "professional dentist clinic background",
         },
         {
@@ -101,11 +101,11 @@ export default function LandingPage() {
           handle: "@khaled",
           testimonial: "عيادة مريحة وأطباء في قمة الرقي.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67460.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67460.jpg?_wi=1",
           imageAlt: "professional dentist clinic background",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/dental-doctor-standing-clinic_1303-26408.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/dental-doctor-standing-clinic_1303-26408.jpg?_wi=2"
       mediaAnimation="slide-up"
       avatars={[
         {
@@ -174,7 +174,7 @@ export default function LandingPage() {
           description: "نخبة من أطباء الأسنان المتخصصين.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/attractive-brunette-female-dentist-chair-stomatology-room_613910-11484.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/attractive-brunette-female-dentist-chair-stomatology-room_613910-11484.jpg?_wi=2"
       mediaAnimation="slide-up"
     />
   </div>
@@ -189,17 +189,17 @@ export default function LandingPage() {
         {
           title: "زراعة الأسنان",
           description: "حلول دائمة لتعويض الأسنان المفقودة.",
-          imageSrc: "http://img.b2bpic.net/free-photo/old-man-sitting-dentist-s-office_1157-19444.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/old-man-sitting-dentist-s-office_1157-19444.jpg?_wi=2",
         },
         {
           title: "تبييض الأسنان",
           description: "ابتسامة ناصعة البياض في زيارة واحدة.",
-          imageSrc: "http://img.b2bpic.net/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67240.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67240.jpg?_wi=2",
         },
         {
           title: "تقويم الأسنان",
           description: "تصحيح وترتيب الأسنان بأحدث الأنظمة.",
-          imageSrc: "http://img.b2bpic.net/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67460.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67460.jpg?_wi=2",
         },
       ]}
       title="خدماتنا المتميزة"
