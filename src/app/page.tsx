@@ -43,7 +43,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
-      background={{ variant: "glowing-orb" }}
+      background={{ variant: "sparkles-gradient" }}
       title="ابتسامتك هي أولويتنا في بغداد"
       description="نقدم خدمات طب الأسنان المتطورة بأعلى معايير الجودة والتعقيم لضمان راحتك وصحة أسنانك."
       leftCarouselItems={[{ imageSrc: "http://img.b2bpic.net/free-photo/dental-doctor-standing-clinic_1303-26408.jpg?_wi=2" }]}
@@ -136,7 +136,7 @@ export default function LandingPage() {
       title="جاهز لابتسامة جديدة؟"
       description="احجز موعدك اليوم."
       buttons={[{ text: "احجز الآن", href: "#contact" }]}
-      background={{ variant: "glowing-orb" }}
+      background={{ variant: "sparkles-gradient" }}
       useInvertedBackground={false}
     />
   </div>
